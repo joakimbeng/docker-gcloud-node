@@ -1,4 +1,4 @@
-FROM joakimbeng/gcloud
+FROM joakimbeng/gcloud:v136
 
 RUN \
     apk add --no-cache --update libintl nodejs && \
